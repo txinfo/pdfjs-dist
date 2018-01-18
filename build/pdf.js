@@ -15411,10 +15411,10 @@ if (typeof PDFJS === 'undefined' || !PDFJS.compatibilityChecked) {
     if (!hasDOM) {
       return;
     }
-    if (isIOS) {
+    /*if (isIOS) {
       installFakeAnimationFrameFunctions();
       return;
-    }
+    }*/
     if ('requestAnimationFrame' in window) {
       return;
     }
